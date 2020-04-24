@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/binaya346/Socket.IO-chat-app-with-node#readme",
   "dependencies": {
-    "nodemon": "^2.0.3"
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.3",
+    "socket.io": "^2.3.0"
   }
 }

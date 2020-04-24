@@ -1,0 +1,57 @@
+#socket-chat{
+    width: 40%;
+    margin-top:25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+#chat-window{
+    margin: 15px;
+    height: calc(100vh - 300px);
+    overflow: auto;
+    border:1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 5px;
+}
+input[type=text]{
+    height: 40px;
+    border-radius: 2px;
+    width: calc(100% - 32px);
+    margin: 7px 15px;
+    border:1px solid #d9d9d9;
+    outline: none;
+    font-size: 14px;
+    color:rgba(0,0,0,0.45);
+    text-indent: 10px;
+}
+input:hover{
+    border-color:#40a9ff;
+}
+button{
+    background-color: #1890ff;
+    color: #fff;
+    height: 40px;
+    width: calc(100% - 32px);
+    font-size: 14px;
+    outline: none;
+    border:1px solid #1890ff;
+    margin:7px 15px;
+    border-radius:2px;
+    cursor:pointer;
+}
+p{
+    margin:15px;
+    font-size: 14px;
+    color:rgba(0,0,0,0.60);
+}
+p > span{
+    font-size:16px;
+    font-weight: 600;
+    color:#1890ff;
+}
+button:hover{
+    background-color:#40a9ff;
+    border-color:#40a9ff;
+}
