@@ -1,25 +1,24 @@
 {
-  "name": "socket.io-chat-app-with-node",
+  "name": "socket.io-chat-app-with-express-js",
   "version": "1.0.0",
-  "description": "Simple chat app with nodejs and socket.io",
+  "description": "Simple chat app with express Js and socket.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binaya346/Socket.IO-chat-app-with-node.git"
+    "url": "git+https://github.com/binaya346/socket.io-chat-app-with-express-js.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Binaya Rijal(jhapali)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/binaya346/Socket.IO-chat-app-with-node/issues"
+    "url": "https://github.com/binaya346/socket.io-chat-app-with-express-js/issues"
   },
-  "homepage": "https://github.com/binaya346/Socket.IO-chat-app-with-node#readme",
+  "homepage": "https://github.com/binaya346/socket.io-chat-app-with-express-js#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "http": "0.0.1-security",
     "nodemon": "^2.0.3",
     "socket.io": "^2.3.0"
   }
