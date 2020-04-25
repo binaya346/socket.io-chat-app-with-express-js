@@ -4,7 +4,8 @@
   "description": "Simple chat app with express Js and socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,6 @@
   "homepage": "https://github.com/binaya346/socket.io-chat-app-with-express-js#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.3",
     "socket.io": "^2.3.0"
   }
 }

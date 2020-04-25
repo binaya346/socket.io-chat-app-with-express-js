@@ -5,7 +5,7 @@
 
 # Running app
     1. npm install
-    2. nodemon | node index
+    2. npm start
 
     App will run on port 4000. 
 
